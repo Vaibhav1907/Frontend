@@ -4,35 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
 <style>
     *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        border:0px solid black;
+        height: 400px;
+        width: 30%;
+        background-color: black;
+        /* margin-left: 50px; */
+        margin: auto;
+        color: white;
+        padding: 20px;
+       
+       
+      
 
-.container{
-    background-color: black;
-    height: 300px;
-    width: 50%;
-    margin: auto ;
-    padding: 10px
-    ;
-}
+    }
+    .imp{
+        width: 89%;
+        padding: 11px;
+        margin: 5px;
+
+    }
+    .btn{
+        width: 98.5%;
+        background-color: black;
+       border: none;
+    }
+    label{
+        margin: 10px;
+    }
+    .abc{
+        border-bottom: 2px;
+        background-color: yellow;
+    }
+    .h1{
+        text-align: center;
+    }
 </style>
 <body>
     <div class="container">
-        <label for="">Name</label>
-        <input type="text" placeholder="enter your name"><br> </br>
-        <label for="">email</label>
-        <input type="email" placeholder="enter your email"><br> </br>
-        <label for="">mobile</label>
-        <input type="email" placeholder="enter your mobile"><br> </br>
-        <button>search</button>
+   <center> <h1 >Form</h1></center>   
+        <div>
+           <label for="">Username</label>
+           <input type="text" placeholder="username" class="imp"><br> </br>
+           <label for="">email</label>
+           <input type="text" placeholder="email"  class="imp"><br> </br>
 
-
-          
+           <label for="">password</label>
+           <input type="text" placeholder="password" class="imp">
+           <button  class="imp ,abc" id="btn">sign in</button>
+        </div>
+        
     </div>
+    
 </body>
 </html>
