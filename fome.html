@@ -11,6 +11,7 @@
         margin: 0;
         padding: 0;
     }
+    
     .container{
         border:0px solid black;
         height: 400px;
@@ -43,14 +44,16 @@
         border-bottom: 2px;
         background-color: yellow;
     }
-    .h1{
+    h1{
         text-align: center;
+        border-bottom: 2px solid red;
     }
 </style>
 <body>
     <div class="container">
-   <center> <h1 >Form</h1></center>   
+    <h1  class="">Form</h1>  
         <div>
+            <form>
            <label for="">Username</label>
            <input type="text" placeholder="username" class="imp"><br> </br>
            <label for="">email</label>
@@ -59,6 +62,7 @@
            <label for="">password</label>
            <input type="text" placeholder="password" class="imp">
            <button  class="imp ,abc" id="btn">sign in</button>
+        </form>
         </div>
         
     </div>
