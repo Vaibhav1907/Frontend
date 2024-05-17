@@ -1,0 +1,144 @@
+  <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="instastyle.css"> <title>Insta Login page</title>
+ </head>
+ <style>
+*{
+  padding: 0;
+  margin: 0;
+ }
+
+body{
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin: auto;
+  min-height: 100vh;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.instalogo{
+  width: 300px;
+  margin: 0px 0;
+  padding: px;
+}
+
+.input{
+  width: 90%;
+  padding: 11px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    margin: 3px;
+}
+.login-btn{
+  width: 97%;
+  padding: .4rem;
+  font-weight: 700;
+  background-color: rgb(1, 183, 255);
+  border: none;
+  border-radius: 8px;
+  margin: 8px 0px;
+  color: white;
+}
+#or{
+  margin: 20px 0;
+}
+
+.fb-login  {
+  font-weight: 700;
+  font-size: 95%;
+  color: rgb(85, 0, 255);
+  margin-bottom: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.signup{
+  text-align: center;
+  border: 1px solid rgba;
+
+}
+.sign{
+  border: 1px solid gray;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+}
+.getapp{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.store {
+  display: flex;
+  align-items: center;
+}
+
+#playStore{
+  width: 135px;
+}
+
+#microsoft{
+  width: 110px;
+  border-radius: 8px;
+}
+
+.form-div form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* padding: 3vh 2vw; */
+  padding: 100px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+}
+ </style>
+ 
+ <body>
+     <main>
+         <img src="https://github.com/yogeshbansal11/Frontend/blob/master/projects/IG.jpeg?raw=true" alt="Image Not Found">
+         <div class="form-div">
+             <form action="">
+                 <img class="instalogo" src="https://github.com/yogeshbansal11/Frontend/blob/master/projects/Logo-Instagram.png?raw=true" alt="">
+                 <input type="text" class="input" placeholder="phone number,username or email">
+                 <input type="password" class="input" placeholder="password">
+                 <button class="login-btn">Log In</button>
+                 <p>OR</p>
+                 <a href="#" class="fb-login"><i class='bx bxl-facebook-square'></i>Log in with Facebook</a>
+                 <p>Forgot Password?</p>
+             </form>
+             <div class="signup">
+                 <div class="sign">
+                     <p class="Sign link"> Don't have an account?
+                         <a href="#" class="sign link">sign up</a>
+                     </p>
+                 </div>
+             </div>
+ 
+             <div class="getapp">
+                 <p>Get the app.</p>
+                 <div class="store">
+                  <img src="https://github.com/yogeshbansal11/Frontend/blob/master/projects/playStore.png?raw=true" alt="" id="playStore">
+                     <img src="https://github.com/yogeshbansal11/Frontend/blob/master/projects/getMicrosoft.png?raw=true" alt="" id="microsoft">
+             </div>
+         </div>
+     </main>
+ </body>
+ 
+ </html>
