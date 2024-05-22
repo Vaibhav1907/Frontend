@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    background-image: url("architect.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: linear gradient(red, yellow);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    position: sticky;
+    top:0px;
+    flex-wrap: nowrap;
+  
+}
+
+.nav h1 {
+    font-size: 25px;
+    color: #333;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav ul li:first-child {
+    margin-left: 0;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.nav ul li a:hover {
+    color: aqua;
+}
+
+.container h1{
+    font-size: 25px;
+    color: #333;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    border: 0px solid black;
+    margin-top: 160px;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+  .box{
+
+    /* height: 200px;
+    width: 300px; */
+    /* border: px solid black; */
+    background-color: white;
+    /* display: inline-block; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* margin: 2px;
+    position: relative;
+    padding: 20px; */
+    
+   
+   
+}
+
+.image{
+
+    width: 270px;
+    height: 200px;
+    /* border:3px solid #333; */
+    margin: 10px ;
+    position: relative;
+    line-height: 2;
+    
+
+}
+
+.abc{
+
+    height: 30%;
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    /* border-radius: 0px 0px 30px 30px; */
+}
+
+.abc{
+
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+h2,h3,h4{
+
+    margin: 30px 0px;
+  
+   
+}
+
+.content i{
+   color: orangered;
+   margin: 5px 0px;
+}
+
+.bxo{
+      height: 530px;
+      width: 290px;
+     background-color: white;
+      display: inline-block;
+      margin-left: 20px;
+           
+           
+}
+.imge{
+ height: 40%
+    
+}
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px 30px 30px;
+}
+.contant{
+   
+    font-size: 20px;
+    font-family: sans-serif;
+}
+h2,h3,h4{
+
+    margin: 10px 0px;
+}
+.btn{
+    width: 97.5%;
+    height: 97.5%;
+   border: 5px solid white;
+   border: none;
+}
+.imp{
+    width: 89%;
+    padding: 11px;
+    margin: 5px;
+
+}
+#btm{
+    width: 98.5%;
+    height: auto;
+    background-color:aliceblue;
+   border: 2px solid black;
+   margin-left: 11px;
+}
+label{
+    margin: 10px;
+}
+.abc{
+    border-bottom: 2px;
+    background-color: yellow;
+}
+
+.ing{
+    margin: 10px 0 0;
+    padding: 0 40px  20px;
+    margin-left: auto;
+}
+.cox{
+   border: 2px solid black;
+   background-color: black;
+}
+.cox h3{
+ color: white;
+ text-align: center;
+   
+
+}
+.box h1{
+    background-color: black;
+    /* width:25%;
+    height:25%; */
+    padding:4px;
+    color: white;
+    position: absolute;
+     top: 0px;
+     left: 0px;
+    /* margin: 3px; */
+   
+   
+}
+.bcd{
+margin-right: 10px ;
+padding: 30px;
+}
